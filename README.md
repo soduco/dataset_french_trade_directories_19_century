@@ -3,7 +3,7 @@
 This dataset is composed of pages and entries extracted from late modern French directories (1798-1861).
 
 It is intended to evaluate the performance of Optical Character Recognition (OCR) 
-and Named Entity Recognition (NER) on French documents produced between 1789 and 1950..
+and Named Entity Recognition (NER) on French documents produced between 1789 and 1950.
 
 TODO entry illustration + text illustration + entities (more than 1)
 
@@ -56,10 +56,7 @@ N. Abadie, E. Carlinet, J. Chazalon and B. Duménieu, A Benchmark of Named Entit
 ## Content and files
 TODO summary of resulting content
 
-### Unsupervised Dataset
-text of ~7000 pages OCRed with PERO OCR.
 
-TODO files and file formats?
 
 
 ### Supervised dataset
@@ -84,6 +81,12 @@ TODO files and file formats?
 
 About the OCR systems:
 TODO (cite or copy paper)
+
+
+### Unsupervised Dataset
+text of ~7000 pages OCRed with PERO OCR.
+
+TODO files and file formats?
 
 
 ## How this dataset was created
@@ -118,10 +121,11 @@ Researchers do not have to pay any fee for reusing the original contents in rese
 Original copyright mentions extracted from https://gallica.bnf.fr/edit/und/conditions-dutilisation-des-contenus-de-gallica on March 29, 2022.
 
 The original contents were significantly transformed before being included in this dataset.
-All derived content is licenced under the permissive *Creative Commons Attribution 4.0 International* licence.
+All derived content is licensed under the permissive *Creative Commons Attribution 4.0 International* license.
 
-## Version and revisions
+## Version and semantics
 Current dataset version is `1.0.0`.
+
 We try to adhere to [Semantic Versioning 2.0.0](https://semver.org/) despite the precise meaning for dataset is unclear.
 Here are the rules we will follow, if necessary.
 
@@ -130,3 +134,7 @@ Given a version number MAJOR.MINOR.PATCH, we will increment the:
 - MAJOR version when we make incompatible evaluation changes (add, remove, change data),
 - MINOR version when we add functionality (like an export in a new archive format) in a backwards compatible manner, and
 - PATCH version when we make backwards compatible bug fixes (like documentation fixes).
+
+### Revisions
+- `1.0.0` - 2022-04-01 - Initial release.
+
