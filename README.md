@@ -11,7 +11,7 @@ TODO entry illustration + text illustration + entities (more than 1)
 ## How to cite this dataset
 Please cite this dataset as:
 ```
-N. Abadie, S. Baciocchi, E. Carlinet, J. Chazalon, P. Cristofoli, B. Duménieu and J. Perret, A Dataset of French Trade Directories from the 19th Century (FTD), version 1.0.0, march 2022, online at https://doi.org/10.5281/zenodo.6394464.
+N. Abadie, S. Baciocchi, E. Carlinet, J. Chazalon, P. Cristofoli, B. Duménieu and J. Perret, A Dataset of French Trade Directories from the 19th Century (FTD), version 1.0.0, March 2022, online at https://doi.org/10.5281/zenodo.6394464.
 ```
 
 ```bibtex
@@ -126,7 +126,7 @@ All derived content is licensed under the permissive *Creative Commons Attributi
 ## Version and semantics
 Current dataset version is `1.0.0`.
 
-We try to adhere to [Semantic Versioning 2.0.0](https://semver.org/) despite the precise meaning for dataset is unclear.
+We try to adhere to [Semantic Versioning 2.0.0](https://semver.org/) despite the precise meaning for datasets is unclear.
 Here are the rules we will follow, if necessary.
 
 Given a version number MAJOR.MINOR.PATCH, we will increment the:
