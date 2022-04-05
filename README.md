@@ -54,22 +54,31 @@ N. Abadie, E. Carlinet, J. Chazalon and B. Duménieu, A Benchmark of Named Entit
 ```
 
 ## Content and files
-TODO summary of resulting content
+The dataset we provide is divided into two sub-parts:
+
+1. A **labeled dataset**, 
+   which contains 8765 manually corrected entries from 78 pages (18 different directories), 
+   and which is designed for *supervised training*.
+2. An **unlabeled dataset**,
+   containing 1058196 raw entries from 6887 pages (13 different directories), 
+   and which is designed for *unsupervised pre-training*.
 
 
+TODO content summary
+
+FIXME WIP ~/work/datasets/french_trade_directories_19th_century
 
 
-### Supervised dataset
-- full-page images (deskewed)
-- bounding boxes of entries
-- images cropped from bounding boxes???
-- human transcription of entries
-- human entity tagging of transcriptions
+### Labeled dataset (for supervised training and evaluation)
+- [x] full-page images (deskewed)
+- [x] bounding boxes of entries
+- [x] images cropped from bounding boxes???
+- [x] human transcription of entries
+- [x] human entity tagging of transcriptions
 - automated transcription of entries using 3 OCR engines: Tesseract v4, PERO OCR and Kraken
 - automated projection of human entity tagging on all OCR predictions (when possible)
 
-
-WARNING check/remove bad bounding boxes
+(pretty OK)
 
 
 Named entities:
@@ -83,10 +92,46 @@ About the OCR systems:
 TODO (cite or copy paper)
 
 
-### Unsupervised Dataset
+Directories:
+"Bottin1_1820"
+"Bottin1_1827"
+"Bottin1_1837"
+"Bottin3_1854a"
+"Cambon_almgene_1841"
+"Deflandre_1828"
+"Deflandre_1829"
+"Didot_1841a"
+"Didot_1851a"
+"Didot_1854a"
+"DidotBottin_1860a"
+"DidotBottin_1861a"
+"Duverneuil_et_La_Tynna_1801"
+"Duverneuil_et_La_Tynna_1805"
+"Duverneuil_et_La_Tynna_1806"
+"Favre_et_Duchesne_1798"
+"La_Tynna_1813"
+"Notables_communaux_seine_1801"
+
+
+### Labeled dataset (for unsupervised pre-training)
 text of ~7000 pages OCRed with PERO OCR.
 
 TODO files and file formats?
+
+Directories:
+"Bottin1_1827"
+"Bottin1_1837"
+"Bottin3_1854a"
+"Cambon_almgene_1841"
+"Deflandre_1828"
+"Didot_1841a"
+"Didot_1851a"
+"Didot_1854a"
+"DidotBottin_1860a"
+"DidotBottin_1861a"
+"Duverneuil_et_La_Tynna_1805"
+"Favre_et_Duchesne_1798"
+"La_Tynna_1813"
 
 
 ## How this dataset was created
