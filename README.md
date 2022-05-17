@@ -11,7 +11,7 @@ and Named Entity Recognition (NER) on 19th century French documents.
 ## How to cite this dataset
 Please cite this dataset as:
 ```
-N. Abadie, S. Baciocchi, E. Carlinet, J. Chazalon, P. Cristofoli, B. Duménieu and J. Perret, A Dataset of French Trade Directories from the 19th Century (FTD), version 1.0.0, March 2022, online at https://doi.org/10.5281/zenodo.6394464.
+N. Abadie, S. Baciocchi, E. Carlinet, J. Chazalon, P. Cristofoli, B. Duménieu and J. Perret, A Dataset of French Trade Directories from the 19th Century (FTD), version 1.0.0, May 2022, online at https://doi.org/10.5281/zenodo.6394464.
 ```
 
 ```bibtex
