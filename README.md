@@ -255,7 +255,7 @@ The following tables indicates the number of page used from each directory.
 
 
 
-## Copyright
+## Copyright and License
 The images were extracted from the original source https://gallica.bnf.fr, owned by the *Bibliothèque nationale de France* (French national library).
 Original contents from the *Bibliothèque nationale de France* can be reused non-commercially, provided the mention "Source gallica.bnf.fr / Bibliothèque nationale de France" is kept.  
 **Researchers do not have to pay any fee for reusing the original contents in research publications or academic works.**  
