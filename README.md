@@ -1,4 +1,5 @@
 # A Dataset of French Trade Directories from the 19th Century (FTD)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.6394464.svg)](https://doi.org/10.5281/zenodo.6394464)
 
 This dataset is composed of pages and entries extracted from French directories published between 1798 and 1861.
 
